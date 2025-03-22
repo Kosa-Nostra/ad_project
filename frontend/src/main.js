@@ -6,6 +6,7 @@ import store from './store'
 
 loadFonts()
 
+
 createApp(App)
 .use(router)
 .use(store)
