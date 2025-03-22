@@ -3,7 +3,8 @@
   <v-row justify="center">
     <v-col cols="12" xs="12">
          <v-carousel>
-           <v-carousel-item cover></v-carousel-item>
+          <v-carousel-item v-for="ad in ads" :key="ad.id" :src="ad.src" cover>
+          </v-carousel-item>
          </v-carousel>
        </v-col>
      </v-row>
